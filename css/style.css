@@ -77,8 +77,16 @@ form label[for=mastercard] {
 /* This is the code you should have students write*/
 /*** BEGIN HERE ***/
 /*Make sure to comment out line 32 above*/
+button[type="submit"]{
+	cursor:wait;
+}
 
+@media screen and (prefers-reduced-motion){
 
+	button[type="submit"]{
+		cursor:crosshair;
+	}
+}
 
 
 
